@@ -542,7 +542,7 @@ footer .wave#wave4
 .map{
 
 height: 450px;
-width: 600px;
+width: auto;
 background-color: greenyellow;
 /* place-content: center; */
 place-items: center;
@@ -550,10 +550,12 @@ align-items: center;
 text-align: center;
   }
 
-  .google-map {
+  /* .google-map {
+    height: 450px;
+    width: 80%;
     padding-bottom: 50%;
     position: relative;
-  }
+  } */
   
   .google-map iframe {
     height: 100%;
